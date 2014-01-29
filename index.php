@@ -20,4 +20,4 @@ $canvas->addWidgets(
     )
 );
 
-$canvas->draw();
+echo $canvas->draw();

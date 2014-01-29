@@ -20,17 +20,24 @@ class Canvas
         }
     }
 
+    public function getWidgets()
+    {
+        return $this->widgets;
+    }
+
     public function draw()
     {
-        echo '----------------------------------------------------------------' . PHP_EOL;
-        echo 'Current Drawing' . PHP_EOL;
-        echo '----------------------------------------------------------------' . PHP_EOL;
+        $output = '----------------------------------------------------------------' . PHP_EOL;
+        $output .= 'Current Drawing' . PHP_EOL;
+        $output .= '----------------------------------------------------------------' . PHP_EOL;
 
         foreach ($this->widgets as $widget) {
-            echo $widget->draw() . PHP_EOL;
+            $output .= $widget->draw() . PHP_EOL;
         }
 
-        echo '----------------------------------------------------------------' . PHP_EOL;
+        $output .= '----------------------------------------------------------------' . PHP_EOL;
+
+        return $output;
     }
 
 }

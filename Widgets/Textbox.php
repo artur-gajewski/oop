@@ -32,7 +32,7 @@ class Textbox implements WidgetInterface
 
     public function draw()
     {
-        echo sprintf(
+        return sprintf(
             '%s (%d,%d) width=%d height=%d Text="%s"',
             $this->title,
             $this->x,

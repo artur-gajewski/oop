@@ -26,7 +26,7 @@ class Square implements WidgetInterface
 
     public function draw()
     {
-        echo sprintf(
+        return sprintf(
             '%s (%d,%d) size=%d',
             $this->title,
             $this->x,

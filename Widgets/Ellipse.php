@@ -29,7 +29,7 @@ class Ellipse implements WidgetInterface
 
     public function draw()
     {
-        echo sprintf(
+        return sprintf(
             '%s (%d,%d) diameterH = %d diameterV = %d',
             $this->title,
             $this->x,
