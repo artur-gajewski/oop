@@ -1,6 +1,24 @@
 Object Oriented Programming Exercise
 ===
 
+Installation
+-------------
+
+- clone repository
+- php index.php
+
+Testing
+--------
+
+- run 'phpunit'
+
+About the app
+-------------
+
+The code is not making assumption that at least PHP 5.3 so namespaces are not used. No other dependencies are needed, just run teh following command to run the app:
+
+$ php index.php
+
 This is an exercise to demonstrate object oriented principles. This practice uses imaginary canvas to draw widgets on it.
 
 There are five different widgets:
