@@ -28,5 +28,3 @@ Circle (1,1) size=300
 Textbox (5,5) width=200 height=100 Text="sample text"
 ----------------------------------------------------------------
 ~~~
-
-Time spent on this exercise: 20 minutes
