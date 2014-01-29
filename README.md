@@ -17,6 +17,7 @@ A WidgetInterface class contains a rule of what each of implemented widgets has 
 
 Once the index.php file is run, it will go through all widgets added to the canvas and draw the configured outcome:
 
+~~~
 ----------------------------------------------------------------
 Current Drawing
 ----------------------------------------------------------------
@@ -26,3 +27,4 @@ Ellipse (100,150) diameterH = 300 diameterV = 200
 Circle (1,1) size=300
 Textbox (5,5) width=200 height=100 Text="sample text"
 ----------------------------------------------------------------
+~~~
